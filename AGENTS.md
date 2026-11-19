@@ -32,6 +32,12 @@ the answer. Ask one question per issue, and link the issue when you ask in the s
   description.
 - Questions that span repos, or that touch the shared contracts, go in `ecohydro/uav`.
 
+**Who decides.** The person running your session decides most questions; the issue lets the others
+see the decision and object. Kelly decides anything that affects everyone: cross-repo contracts,
+schema changes, writes to the shared canoply database or real flight data, licensing, and paid
+tools. For those, mention `@kcaylor` in the issue body. If Kelly isn't the one running your session,
+add `blocked` and wait for the answer on the issue.
+
 **Pull requests.** `.github/CODEOWNERS` asks Kelly, Bryn and Shadman for review (GitHub skips the
 author). When you open a PR for finished work, open it ready for review, not as a draft, so the
 review request goes out. In the description, list the decisions made along the way with links to
